@@ -1601,7 +1601,7 @@
 	)
 	(text "5V Regulator"
 		(exclude_from_sim no)
-		(at 112.014 79.248 0)
+		(at 146.812 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1628,6 +1628,16 @@
 			)
 		)
 		(uuid "b8da0ed0-7b0b-47cc-8f6b-785f17d5a8bb")
+	)
+	(text "Encoders"
+		(exclude_from_sim no)
+		(at 123.698 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b921ec51-d0a9-4878-8114-95b7fcb5d878")
 	)
 	(junction
 		(at 29.21 36.83)
