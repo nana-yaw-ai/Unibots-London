@@ -1,0 +1,36 @@
+# ===== KiCad local user settings =====
+*.kicad_prl
+*.kicad_pro-bak
+fp-info-cache
+
+# ===== Autosave / backups =====
+*-backups/
+*.bak
+*.tmp
+*.lck
+
+# ===== Plot / fabrication outputs =====
+*.gbr
+*.drl
+*.rpt
+*.pos
+*.csv
+*.pdf
+*.svg
+*.step
+*.stp
+
+# ===== Simulation =====
+*.raw
+*.net
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Python / scripts if any =====
+__pycache__/
+*.pyc
+
+# ===== KiCad 3D cache =====
+*.wrl.cache
