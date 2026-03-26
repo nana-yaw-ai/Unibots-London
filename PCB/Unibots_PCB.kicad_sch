@@ -1569,6 +1569,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Servo motor"
+		(exclude_from_sim no)
+		(at 84.836 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "096bb04f-e06b-47a0-a17e-aace0f5777b1")
+	)
 	(text "Potential Dividers"
 		(exclude_from_sim no)
 		(at 24.384 115.316 0)
@@ -1599,7 +1609,7 @@
 		)
 		(uuid "58074e01-41e8-4b37-8e22-1a023e92d313")
 	)
-	(text "5V Regulator"
+	(text "5V Regulator 1"
 		(exclude_from_sim no)
 		(at 146.812 80.772 0)
 		(effects
@@ -1629,15 +1639,15 @@
 		)
 		(uuid "b8da0ed0-7b0b-47cc-8f6b-785f17d5a8bb")
 	)
-	(text "Encoders"
+	(text "5V Regulator 2\n"
 		(exclude_from_sim no)
-		(at 123.698 80.264 0)
+		(at 145.288 114.554 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b921ec51-d0a9-4878-8114-95b7fcb5d878")
+		(uuid "c6b81a8d-889e-47a7-887d-3f2e2b74944d")
 	)
 	(junction
 		(at 29.21 36.83)
