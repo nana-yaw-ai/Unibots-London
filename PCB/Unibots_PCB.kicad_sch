@@ -6394,6 +6394,12 @@
 		(uuid "75085653-7f36-41c7-8e92-0e28219774e7")
 	)
 	(junction
+		(at 120.65 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa77865-68ed-4642-a08b-357fa34507d9")
+	)
+	(junction
 		(at 116.84 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6494,12 +6500,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4c33c11-7147-4cd2-bb8b-a0727890e6d0")
-	)
-	(junction
-		(at 120.65 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f63ef564-8d5a-4237-86e3-ce7f7472b6db")
 	)
 	(no_connect
 		(at 227.33 132.08)
@@ -7035,16 +7035,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 132.08) (xy 120.65 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c803361-ee8b-410f-86e4-289fe263727a")
-	)
-	(wire
-		(pts
 			(xy 204.47 97.79) (xy 204.47 102.87)
 		)
 		(stroke
@@ -7125,7 +7115,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 132.08) (xy 123.19 132.08)
+			(xy 118.11 132.08) (xy 120.65 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7332,6 +7322,16 @@
 			(type default)
 		)
 		(uuid "6efe21a2-7859-4730-8835-198135f9f073")
+	)
+	(wire
+		(pts
+			(xy 120.65 132.08) (xy 123.19 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701edf48-9bfc-411a-9a10-54feb7ad8d8d")
 	)
 	(wire
 		(pts
@@ -9958,73 +9958,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 120.65 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09eda631-9d29-444e-81dd-feb95240cc5f")
-		(property "Reference" "C8"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 116.078 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 121.6152 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 120.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "454bb34c-30c0-470c-9c8c-2d6c9a61bcf0")
-		)
-		(pin "1"
-			(uuid "72d3ec66-8079-498c-81e1-73857db769c4")
-		)
-		(instances
-			(project "Unibots_PCB"
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 205.74 26.67 0)
 		(unit 1)
@@ -11207,6 +11140,75 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 120.65 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e2da24e-376c-4d3b-8a24-df371e96384e")
+		(property "Reference" "C8"
+			(at 114.808 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 114.046 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.6848 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df1cc581-b33a-4c05-99b6-32d610f251fd")
+		)
+		(pin "2"
+			(uuid "614e123b-8ff9-4c84-8bd7-284f0fb0632f")
+		)
+		(instances
+			(project "Unibots_PCB"
+				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 120.65 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11232,7 +11234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 119.6848 87.63 0)
 			(effects
 				(font
@@ -12970,7 +12972,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 109.5248 86.36 0)
 			(effects
 				(font
@@ -14050,73 +14052,6 @@
 			(project "Unibots_PCB"
 				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 142.24 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83911eca-bd35-4c18-869c-6d32a1c6d734")
-		(property "Reference" "C7"
-			(at 138.43 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF"
-			(at 148.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_HandSolder"
-			(at 143.2052 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 142.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee0da5cb-a344-4ebe-a34f-031385925fd6")
-		)
-		(pin "1"
-			(uuid "4de61ffb-b430-4db5-a727-26353998092e")
-		)
-		(instances
-			(project "Unibots_PCB"
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16582,6 +16517,75 @@
 			(project ""
 				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c809b419-06da-4d10-a520-a8b290f9a327")
+		(property "Reference" "C7"
+			(at 143.002 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 145.796 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 141.2748 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e07c8e1-5a8f-447b-be72-24dce85dd311")
+		)
+		(pin "2"
+			(uuid "2b2a2602-c6e7-4c75-a8b6-cee22ce515a1")
+		)
+		(instances
+			(project "Unibots_PCB"
+				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
+					(reference "C7")
 					(unit 1)
 				)
 			)
