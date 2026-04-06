@@ -4606,192 +4606,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:TLV76150DCY"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5144,142 +4958,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5857,25 +5535,15 @@
 		)
 		(uuid "3b0d88b3-87ac-4c7f-a8d3-efab144c719d")
 	)
-	(text "Motor Supply Selection"
+	(text "Switch"
 		(exclude_from_sim no)
-		(at 133.35 54.61 0)
+		(at 182.88 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "3c66bce1-1fee-46b5-b447-8a60d65dfc8c")
-	)
-	(text "Motor Supply Selection"
-		(exclude_from_sim no)
-		(at 68.834 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "45014e45-7280-4606-8d48-8c766d8e8351")
+		(uuid "3f481fcf-d054-4e9a-9651-4d9baf82909c")
 	)
 	(text "Raspberry Pi Pinout\n"
 		(exclude_from_sim no)
@@ -6009,7 +5677,7 @@
 	)
 	(text "Make sure VGS threshold is above 12V (~20V)"
 		(exclude_from_sim no)
-		(at 186.436 54.356 0)
+		(at 188.976 66.548 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -6597,6 +6265,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 49.53) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a176cc-940e-4e38-9d53-13c6212dbb3e")
+	)
+	(wire
+		(pts
 			(xy 127 85.09) (xy 130.81 85.09)
 		)
 		(stroke
@@ -6874,16 +6552,6 @@
 			(type default)
 		)
 		(uuid "34e38976-1f6b-44f9-b35d-79ea1ce3aebe")
-	)
-	(wire
-		(pts
-			(xy 191.77 49.53) (xy 187.96 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3626a0b3-5fe5-430d-ad5d-64503117ca96")
 	)
 	(wire
 		(pts
@@ -8377,7 +8045,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 49.53) (xy 175.26 49.53)
+			(xy 175.26 49.53) (xy 181.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8535,16 +8203,6 @@
 		)
 		(uuid "03dcebce-1b28-4ee5-a48a-28639f1a5132")
 	)
-	(label "V_motor2"
-		(at 132.08 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "042aeae5-830c-4190-8d81-4d090cb31b85")
-	)
 	(label "Echo4"
 		(at 52.07 125.73 0)
 		(effects
@@ -8594,16 +8252,6 @@
 			(justify right bottom)
 		)
 		(uuid "0a7cc8bf-dfc0-4d39-8505-81a5aa729d03")
-	)
-	(label "MotorFrontRight-"
-		(at 60.96 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b420340-961c-4895-8a2c-d34503a148e0")
 	)
 	(label "EXTRA_PI_GPIO2"
 		(at 247.65 52.07 0)
@@ -8665,6 +8313,16 @@
 		)
 		(uuid "17df7a01-a05b-440d-a3b1-0445b5472698")
 	)
+	(label "MotorBackLeft-"
+		(at 60.96 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19064068-b05e-434a-b581-82026dbb5a2a")
+	)
 	(label "COM2"
 		(at 71.12 175.26 0)
 		(effects
@@ -8674,16 +8332,6 @@
 			(justify left bottom)
 		)
 		(uuid "1afc2480-ea09-4073-b1c8-dc2108ee3867")
-	)
-	(label "Vin"
-		(at 74.93 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e18dc87-84ae-4996-8803-0cf25406b361")
 	)
 	(label "Servo1_Sig"
 		(at 78.74 133.35 0)
@@ -8745,16 +8393,6 @@
 		)
 		(uuid "29b1419e-9b9b-4e22-99ab-fc47158194a0")
 	)
-	(label "MotorBackLeft+"
-		(at 124.46 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a300fbc-f8fd-43e6-8156-0d543509e0f1")
-	)
 	(label "IND"
 		(at 227.33 119.38 180)
 		(effects
@@ -8784,16 +8422,6 @@
 			(justify right bottom)
 		)
 		(uuid "3210f3af-da3d-40f3-8d89-8e79c294acfa")
-	)
-	(label "MotorBackLeft-"
-		(at 124.46 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32f5ba2a-6b03-4fb7-967a-3148f8837aa1")
 	)
 	(label "GPIO_17"
 		(at 240.03 116.84 0)
@@ -8835,6 +8463,16 @@
 		)
 		(uuid "3c69f5d9-1dda-4c75-9a7f-c85ee5559dc7")
 	)
+	(label "MotorFrontRight-"
+		(at 124.46 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e617b82-fd2d-49be-bbc0-149c66c1dab5")
+	)
 	(label "MotorBackRight+"
 		(at 124.46 41.91 0)
 		(effects
@@ -8855,7 +8493,7 @@
 		)
 		(uuid "41195249-3bdc-4ce3-9c67-30b1a695fd82")
 	)
-	(label "V_motor1"
+	(label "7V_motor"
 		(at 59.69 15.24 180)
 		(effects
 			(font
@@ -8925,7 +8563,7 @@
 		)
 		(uuid "4cb846d9-a2d7-4d83-a2a8-f57644866eac")
 	)
-	(label "V_motor2"
+	(label "7V_motor"
 		(at 123.19 13.97 270)
 		(effects
 			(font
@@ -8955,15 +8593,15 @@
 		)
 		(uuid "56569c83-66d7-4fda-b9d2-71316735f13b")
 	)
-	(label "7V_motor"
-		(at 139.7 67.31 0)
+	(label "MotorBackLeft+"
+		(at 60.96 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "58dc03ef-8aa9-45bd-a3d7-de1f8ce0f6b2")
+		(uuid "58ef575a-beb0-41c0-9c44-eb04479ca614")
 	)
 	(label "SDA_ESP32"
 		(at 240.03 104.14 0)
@@ -9075,16 +8713,6 @@
 		)
 		(uuid "7c2de70e-8900-42a8-a5e6-af8d98790a02")
 	)
-	(label "Vin"
-		(at 139.7 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d844acd-7805-4ab8-9607-08606ada891c")
-	)
 	(label "MotorFrontRight+"
 		(at 200.66 26.67 180)
 		(effects
@@ -9115,15 +8743,15 @@
 		)
 		(uuid "88e64f36-d1c8-45f7-b94d-c8360689b6d5")
 	)
-	(label "V_motor1"
-		(at 67.31 59.69 180)
+	(label "MotorFrontRight+"
+		(at 124.46 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "89753cac-cd54-4c96-a5ae-425856715044")
+		(uuid "893b877e-d617-4096-9eb3-8a494965937d")
 	)
 	(label "Echo2"
 		(at 33.02 125.73 0)
@@ -9164,16 +8792,6 @@
 			(justify right bottom)
 		)
 		(uuid "8e3dc805-baa7-48f6-b48c-06617b723f34")
-	)
-	(label "7V_motor"
-		(at 74.93 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94c2ea38-7994-448f-baeb-a2e84d855dae")
 	)
 	(label "5V_LDO"
 		(at 227.33 137.16 180)
@@ -9284,16 +8902,6 @@
 			(justify right bottom)
 		)
 		(uuid "9fe65889-df1b-4a62-9325-5b8adbb9eb0f")
-	)
-	(label "V_motor2"
-		(at 132.08 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ffe5f6a-e725-42ee-9615-29a83aafd4e8")
 	)
 	(label "NC2"
 		(at 67.31 177.8 0)
@@ -9455,16 +9063,6 @@
 		)
 		(uuid "b9d0f57a-8008-4817-abe5-45451e82c323")
 	)
-	(label "MotorFrontRight+"
-		(at 60.96 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba21c818-8ffb-4857-831c-932b35bab997")
-	)
 	(label "MotorFrontLeft+"
 		(at 60.96 30.48 0)
 		(effects
@@ -9574,16 +9172,6 @@
 			(justify left bottom)
 		)
 		(uuid "d2fbc5db-d8aa-4396-803b-c173afe79e2c")
-	)
-	(label "V_motor1"
-		(at 67.31 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d898b8d4-e00f-4c54-975e-70eee26488c7")
 	)
 	(label "Trig3"
 		(at 27.94 102.87 0)
@@ -12402,74 +11990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 135.89 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "580c1de6-ad43-4dbb-9f4e-63888a724899")
-		(property "Reference" "JP2"
-			(at 135.89 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJump_Big"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 135.89 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e71ff090-e4c3-4c36-a513-3640a486da51")
-		)
-		(pin "1"
-			(uuid "f3f18c85-9881-4712-9a5e-a91c98eeab77")
-		)
-		(instances
-			(project "Unibots_PCB"
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
 		(at 267.97 101.6 0)
 		(mirror y)
@@ -12692,74 +12212,6 @@
 			(project "Unibots_PCB"
 				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
 					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 182.88 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cd0b7ff-26ce-4353-8ac3-6ad3757c1e2d")
-		(property "Reference" "SW1"
-			(at 182.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 182.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3df3da19-4483-45f2-b55d-90df953cda2c")
-		)
-		(pin "2"
-			(uuid "bc178003-509a-4548-8b6f-24c61997d9f1")
-		)
-		(instances
-			(project ""
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13483,74 +12935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 71.12 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "7095b955-826a-46c4-ac63-1ebffb4a7570")
-		(property "Reference" "JP3"
-			(at 71.12 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 71.12 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJump_Big"
-			(at 71.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 71.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1bdb18c2-e66c-4dae-b746-dc748cd141a2")
-		)
-		(pin "1"
-			(uuid "3fc7901e-1dd1-4acd-ae10-9a4f8230ad48")
-		)
-		(instances
-			(project "Unibots_PCB"
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 207.01 34.29 0)
 		(unit 1)
@@ -14145,74 +13529,6 @@
 			(project "Unibots_PCB"
 				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 135.89 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8396ee3f-8197-4eb0-bebf-651877b72efb")
-		(property "Reference" "JP1"
-			(at 135.89 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 135.89 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJump_Big"
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 135.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7326fa2-73be-4fdf-bec2-a9c9d4acf37c")
-		)
-		(pin "1"
-			(uuid "1e44b83c-804e-4671-b882-336695292b68")
-		)
-		(instances
-			(project ""
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -14865,74 +14181,6 @@
 			(project "Unibots_PCB"
 				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 71.12 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a51235a-d7af-406f-81d1-dc60d84de7b4")
-		(property "Reference" "JP4"
-			(at 71.12 62.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 71.12 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJump_Big"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 71.12 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2161c30c-2e5f-4635-a175-b8dc5836f899")
-		)
-		(pin "1"
-			(uuid "ad9f1520-aa49-434c-9d4c-d79de9573847")
-		)
-		(instances
-			(project "Unibots_PCB"
-				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -17579,6 +16827,77 @@
 			(project "Unibots_PCB"
 				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 184.15 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f38b4949-740d-4ac2-913d-1a5eb315a130")
+		(property "Reference" "J18"
+			(at 186.69 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 181.6101 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56f9ce9-bb85-4fde-9855-77b3763a0a02")
+		)
+		(pin "2"
+			(uuid "dfaf2784-1f8c-4418-ba99-e30829332b08")
+		)
+		(instances
+			(project "Unibots_PCB"
+				(path "/a1de844a-84f5-403a-bc32-d5187da60c13"
+					(reference "J18")
 					(unit 1)
 				)
 			)
