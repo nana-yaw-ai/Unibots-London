@@ -13115,7 +13115,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_PMOS_GDS"
+		(property "Value" "RD3P01BATTL1"
 			(at 170.18 45.72 90)
 			(effects
 				(font
